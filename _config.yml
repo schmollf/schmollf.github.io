@@ -1,1 +1,19 @@
-theme: jekyll-theme-minimal
+# Setup
+title:            "Felix\'s blog"
+tagline:          "Felix\'s blog"
+description:      'My blog on systems programming.'
+url:              https://schmollf.github.io
+paginate:         5
+
+# About and contact
+author:
+  name:           'Felix Schmoll'
+  url:            https://schmollf.github.io
+
+# Gems
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+# Custom vars
+version:          3.0.0
