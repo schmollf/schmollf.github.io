@@ -15,7 +15,7 @@ This helps us understand the following asymptotic complexities:
 
 ```
 +-----------+----------+---------------+
-| Operation | std::map | std::flat_map  |
+| Operation | std::map | std::flat_map |
 +-----------+----------+---------------+
 | Create    | O(nlgn)  | O(nlgn)       |
 | Insert    | O(lgn)   | O(n)          |
@@ -48,9 +48,9 @@ If you've enjoyed this article and you are interested in writing high-performanc
 
 ## Literature References
 
-- Definition of `std::flat_map` in the C++ standard: https://eel.is/c++draft/flat.map
-- None of the standard libraries have implemented `std::flat_map` as of October 2023, but you can find a standard-conforming implementation to play around with in the github repository of the responsible working group of the C++ committee https://github.com/WG21-SG14/SG14/blob/master/SG14/flat_map.h.
-https://en.cppreference.com/w/cpp/header/flat_map
-- Interesting talk by Arthur O'Dwyer which mentions flat_maps and exception guarantees. It helps to understand why it took so long to standardize std::flat_map. https://www.youtube.com/watch?v=b9ZYM0d6htg
-- Summary of issues the committee had with an earlier proposal for `std::flat_map` https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1727r0.pdf
-- Boost has had its own version of flat_map for a while https://www.boost.org/doc/libs/1_80_0/doc/html/boost/container/flat_map.html
+- Definition of `std::flat_map` in the C++ standard: <https://eel.is/c++draft/flat.map>
+- None of the standard libraries have implemented `std::flat_map` as of October 2022, but you can find a standard-conforming implementation to play around with in the github repository of the responsible working group of the C++ committee <https://github.com/WG21-SG14/SG14/blob/master/SG14/flat_map.h>
+- <https://en.cppreference.com/w/cpp/header/flat_map>
+- Interesting talk by Arthur O'Dwyer which mentions flat_maps and exception guarantees. It helps to understand why it took so long to standardize std::flat_map. <https://www.youtube.com/watch?v=b9ZYM0d6htg>
+- Summary of issues the committee had with an earlier proposal for `std::flat_map` <https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1727r0.pdf>
+- Boost has had its own version of flat_map for a while <https://www.boost.org/doc/libs/1_80_0/doc/html/boost/container/flat_map.html>
