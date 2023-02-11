@@ -1,3 +1,8 @@
+---
+layout: post
+title: Understanding malloc() - Dive into Memory Allocators
+---
+
 # Understanding `malloc()` - Dive into Memory Allocators
 
 Memory allocators are a buzz word for everybody interested in systems programming. Today, we'll dig into `malloc()` and write our own version of it in C. The principles in other languages will be similar. Even in garbage collected languages, such as Java and Golang, much of the concepts will apply, with the important addition of compaction in Java for more effective space reclamation. But that's a different topic.
