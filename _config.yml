@@ -1,8 +1,9 @@
 # Setup
-title:            "Felixs blog"
-tagline:          "Felixs blog"
+title:            "Systems"
+tagline:          "Systems"
 description:      'My blog on systems programming.'
-url:              https://schmollf.github.io
+url:              https://schmollf.github.io/
+baseurl:          /
 paginate:         5
 
 # About and contact
@@ -15,5 +16,3 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
 
-# Custom vars
-version:          3.0.0
