@@ -2,8 +2,8 @@
 title:            "Systems"
 tagline:          "Systems"
 description:      'My blog on systems programming.'
-url:              https://schmollf.github.io/
-baseurl:          /
+url:              https://schmollf.github.io
+baseurl:          ''
 paginate:         5
 
 # About and contact
