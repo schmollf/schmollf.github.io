@@ -1,16 +1,17 @@
-# Advanced Performance books and resources
+---
+layout: post
+title: Awesome Systems Software
+---
 
-What resources are there to learn about performance programming?
+What resources are there to learn about systems programming?
 
 First of all, you should just program! But there are some resources:
 
-# Hash tables
+## Hash tables
 
 Youtube talks by Google guys:
 
 - https://www.youtube.com/watch?v=ncHmEUmJZf4
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JZE3_0qvrMg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
 Blog post by facebook guys:
 
@@ -34,9 +35,19 @@ always want the best graphics.
 
 [Gaffer on Games](https://gafferongames.com/)
 
+## Interview Preparation
+
+- [Guide on interviewing.io](https://interviewing.io/guides/system-design-interview)
+    They're a website offering mock interviews, but they have a really cool write up to help you prepare for free. (I'd pay for that write-up if it was a book to be honest)
+
+## Memory Allocators
+
+- [Some slides](https://github.com/CppCon/CppCon2015/blob/master/Presentations/allocator%20Is%20to%20Allocation%20what%20vector%20Is%20to%20Vexation/allocator%20Is%20to%20Allocation%20what%20vector%20Is%20to%20Vexation%20-%20Andrei%20Alexandrescu%20-%20CppCon%202015.pdf) by Andrei Alexandrescu, there is a corresponding cppcon talk about it on Youtube 
+
 ## Other books that are super cool
 
 - [Game Programming Patterns](https://gameprogrammingpatterns.com/)
 - "Game Engine Architecture" by Jason Gregory
 - "The Garbage Collection Handbook" by Jones, Hosking, Moss
 - "Software Engineering at Google" by Titus Winters et al.
+- "Designing Data-Intensive Systems" by Martin Kleppmann
