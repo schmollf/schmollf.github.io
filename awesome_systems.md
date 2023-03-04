@@ -1,11 +1,10 @@
 ---
-layout: post
-title: Awesome Systems Software
+title: Awesome Systems
 ---
 
 What resources are there to learn about systems programming?
 
-First of all, you should just program! But there are some resources:
+It turns out that you can really learn most by just programming, but here are some resources I found useful:
 
 ## Hash tables
 
