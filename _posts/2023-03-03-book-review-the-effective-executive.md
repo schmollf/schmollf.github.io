@@ -1,4 +1,8 @@
-# header
+---
+layout: post
+title: Book Review - The Effective Executive by Peter Drucker
+published: false
+---
 
 # Chapter 1
 
